@@ -16,17 +16,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rs-XC-dcy">
-                                <rect key="frame" x="123" y="424.5" width="168.5" height="47"/>
+                                <rect key="frame" x="123" y="194" width="168.5" height="47"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <color key="textColor" red="1" green="0.8901960784313725" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="0.8901960784313725" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="688-cu-k4P">
+                                <rect key="frame" x="35.5" y="322.5" width="343" height="251"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.011764705882352941" green="0.31372549019607843" blue="0.43529411764705883" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="688-cu-k4P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5KJ-oY-85S"/>
+                            <constraint firstItem="688-cu-k4P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Qc-sz-7Hc"/>
                             <constraint firstItem="8rs-XC-dcy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ar5-76-Yjs"/>
-                            <constraint firstItem="8rs-XC-dcy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="m2v-HD-SqU"/>
+                            <constraint firstItem="8rs-XC-dcy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="yBW-8G-9XI"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -35,4 +40,7 @@
             <point key="canvasLocation" x="530" y="89"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="diamond" width="343" height="251"/>
+    </resources>
 </document>
