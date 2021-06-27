@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,13 +16,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rs-XC-dcy">
-                                <rect key="frame" x="123" y="194" width="168.5" height="47"/>
+                                <rect key="frame" x="122.66666666666667" y="245.66666666666663" width="168.66666666666663" height="47"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <color key="textColor" red="1" green="0.8901960784313725" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="0.8901960784313725" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="688-cu-k4P">
-                                <rect key="frame" x="35.5" y="322.5" width="343" height="251"/>
+                                <rect key="frame" x="20" y="322.66666666666669" width="374" height="251.00000000000006"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -30,8 +30,10 @@
                         <constraints>
                             <constraint firstItem="688-cu-k4P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5KJ-oY-85S"/>
                             <constraint firstItem="688-cu-k4P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Qc-sz-7Hc"/>
+                            <constraint firstItem="688-cu-k4P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Pwo-Jt-HZF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="688-cu-k4P" secondAttribute="trailing" constant="20" id="Tdv-pK-j1d"/>
                             <constraint firstItem="8rs-XC-dcy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ar5-76-Yjs"/>
-                            <constraint firstItem="8rs-XC-dcy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="yBW-8G-9XI"/>
+                            <constraint firstItem="688-cu-k4P" firstAttribute="top" secondItem="8rs-XC-dcy" secondAttribute="bottom" constant="30" id="ckQ-wP-DfV"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -41,6 +43,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="diamond" width="343" height="251"/>
+        <image name="diamond" width="343.33334350585938" height="251.33332824707031"/>
     </resources>
 </document>
